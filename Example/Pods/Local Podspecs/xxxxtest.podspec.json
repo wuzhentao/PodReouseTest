@@ -1,0 +1,22 @@
+{
+  "name": "xxxxtest",
+  "version": "0.1.0",
+  "summary": "A short description of xxxxtest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wuzhentao/xxxxtest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wuzhentao": "wuzhentao@lianjia.com"
+  },
+  "source": {
+    "git": "https://github.com/wuzhentao/xxxxtest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "xxxxtest/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - xxxxtest (0.1.0)
+
+DEPENDENCIES:
+  - xxxxtest (from `../`)
+
+EXTERNAL SOURCES:
+  xxxxtest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  xxxxtest: 71c9aa6bcc6aa9e1f3eee21110c2efbf8a9bef40
+
+PODFILE CHECKSUM: 193edca460ee1e2f259e333d156db28d8fd47c86
+
+COCOAPODS: 1.2.1

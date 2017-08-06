@@ -1,0 +1,1 @@
+../../../../../LJWechatSDK/WechatAuthSDK.h

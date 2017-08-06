@@ -1,16 +1,16 @@
 PODS:
-  - xxxxtest (0.1.0)
+  - LJWechatSDK (1.0.0)
 
 DEPENDENCIES:
-  - xxxxtest (from `../`)
+  - LJWechatSDK (from `../`)
 
 EXTERNAL SOURCES:
-  xxxxtest:
+  LJWechatSDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  xxxxtest: 71c9aa6bcc6aa9e1f3eee21110c2efbf8a9bef40
+  LJWechatSDK: 57e160921a5cac02a1ac79e73b71884287adcbbd
 
-PODFILE CHECKSUM: 193edca460ee1e2f259e333d156db28d8fd47c86
+PODFILE CHECKSUM: e3b254c190ae30400aeee4d7d8c9def303b138a0
 
 COCOAPODS: 1.2.1

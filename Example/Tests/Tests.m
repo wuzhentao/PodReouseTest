@@ -1,8 +1,8 @@
 //
-//  xxxxtestTests.m
-//  xxxxtestTests
+//  LJWechatSDKTests.m
+//  LJWechatSDKTests
 //
-//  Created by wuzhentao on 08/05/2017.
+//  Created by wuzhentao on 05/02/2017.
 //  Copyright (c) 2017 wuzhentao. All rights reserved.
 //
 

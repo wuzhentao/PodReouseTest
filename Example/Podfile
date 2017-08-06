@@ -1,9 +1,8 @@
-use_frameworks!
 
-target 'xxxxtest_Example' do
-  pod 'xxxxtest', :path => '../'
+target 'LJWechatSDK_Example' do
+  pod 'LJWechatSDK', :path => '../'
 
-  target 'xxxxtest_Tests' do
+  target 'LJWechatSDK_Tests' do
     inherit! :search_paths
 
     

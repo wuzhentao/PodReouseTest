@@ -8,7 +8,6 @@
 
 #import "LJViewController.h"
 #import <WXApi.h>
-#import "test.h"
 
 @interface LJViewController ()
 

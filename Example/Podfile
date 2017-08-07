@@ -8,3 +8,8 @@ target 'LJWechatSDK_Example' do
     
   end
 end
+post_install do |installer|
+    for speccc in installer.installed_specs
+        File.open("spec.list", "a+") { |file| file.puts "libspec is #{speccc.to_s} source_files:#{speccc.attributes_hash['source_files']} public_header_files:#{speccc.attributes_hash['public_header_files']} frameworks:#{speccc.attributes_hash['frameworks']} library:#{speccc.attributes_hash['library']} dependencies:#{speccc.dependencies} source:#{speccc.source} vendored_libraries:#{speccc.attributes_hash['vendored_libraries']} vendored_frameworks:#{speccc.attributes_hash['vendored_frameworks']} resource_bundles:#{speccc.attributes_hash['resource_bundles']} resources:#{speccc.attributes_hash['resources']}"}
+    end
+end

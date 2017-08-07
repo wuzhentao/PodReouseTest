@@ -30,11 +30,11 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LJWechatSDK/*.{h,m}'
+  s.source_files = 'LJWechatSDK/*'
   s.vendored_libraries = "LJWechatSDK/libWeChatSDK.a"
 
 
-  s.frameworks =  'SystemConfiguration' , 'CoreTelephony'
+  s.frameworks =  'SystemConfiguration' , 'CoreTelephony','SystemConfiguration','SystemConfiguration'
   s.library = 'z' , 'c++' , 'sqlite3'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		17F2D4A65F020C21F40A6F1F5E5E6A82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9212B0858CE38CAB25B153C4609AA244 /* Foundation.framework */; };
-		3D9C1F5050831A4B9D7E0E808F45E58C /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 332410B96C37ECD6803B2E921FF4CF53 /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20BAA063DDF1BDD3EBE6ABE071B9593D /* LJWechatSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6920D1599983C4DC1BF006431B7E03 /* LJWechatSDK-dummy.m */; };
+		25EE16BFCA66FF51A704D4147B79EE5C /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = DE6CFAF1327A5041F957E6133681E3EE /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43137F7F475017C497BE472C9C342F17 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 26CAEEAFC8AB80E353CF47F8FA3445F9 /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5278137C410BF272DB0792813AFF3659 /* Pods-LJWechatSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D37E6F436F243E81591A84DF180C1E /* Pods-LJWechatSDK_Example-dummy.m */; };
-		638C80A96D8D417CFC279B8F6E8528F5 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = DBBB0045F69E49E70FCF88C498253199 /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6689C75227EC41F85B2326EF7761A982 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = EAC0BBDADAB7939D85660C7A04F9BC59 /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6CABCA9877C776D525FE61CDB71F8343 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9212B0858CE38CAB25B153C4609AA244 /* Foundation.framework */; };
 		850AE3F7B0162A64EF9134F7A11EF9C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9212B0858CE38CAB25B153C4609AA244 /* Foundation.framework */; };
-		9623E234572EE7EA3323CC530FD88008 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB250FC810D9EE7BE054AC53762B813 /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99D161BB132E585D9553506D4457F569 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C396E5C50BD8EE53E0362FE2E06AE8 /* CoreTelephony.framework */; };
-		A2EBC4A4CD1CD27FCBD285054F5EB871 /* LJWechatSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6920D1599983C4DC1BF006431B7E03 /* LJWechatSDK-dummy.m */; };
-		E31D86301F3807EF00E490BF /* asdfas.h in Headers */ = {isa = PBXBuildFile; fileRef = E31D862E1F3807EF00E490BF /* asdfas.h */; };
-		E31D86311F3807EF00E490BF /* asdfas.m in Sources */ = {isa = PBXBuildFile; fileRef = E31D862F1F3807EF00E490BF /* asdfas.m */; };
+		E31D86351F386C2400E490BF /* asdfas.h in Headers */ = {isa = PBXBuildFile; fileRef = E31D86331F386C2400E490BF /* asdfas.h */; };
+		E31D86361F386C2400E490BF /* asdfas.m in Sources */ = {isa = PBXBuildFile; fileRef = E31D86341F386C2400E490BF /* asdfas.m */; };
 		E3EF11BC1F232E49CC95075B1EAD502F /* Pods-LJWechatSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C31FF1E5C8BDB06B9499AF0421D2C1 /* Pods-LJWechatSDK_Tests-dummy.m */; };
 		EC1613FE563006F34E1E40920FA0D064 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584CB9F6BD0B54A2910EB5167AABB075 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
@@ -34,10 +34,10 @@
 
 /* Begin PBXFileReference section */
 		08C31FF1E5C8BDB06B9499AF0421D2C1 /* Pods-LJWechatSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LJWechatSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		26CAEEAFC8AB80E353CF47F8FA3445F9 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		2CA8DAC2DC899C84BAB01F8C97AF6B18 /* libLJWechatSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLJWechatSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		31D37E6F436F243E81591A84DF180C1E /* Pods-LJWechatSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LJWechatSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		327F717792EA5622A75441B73046A59B /* Pods-LJWechatSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LJWechatSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		332410B96C37ECD6803B2E921FF4CF53 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		584CB9F6BD0B54A2910EB5167AABB075 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		6F8A11079748164989F968BF9D00CCA3 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = LJWechatSDK/libWeChatSDK.a; sourceTree = "<group>"; };
 		8830A854291C10243AABCE7208319FFD /* Pods-LJWechatSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LJWechatSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -48,16 +48,16 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		981756A632B5846E38CD34F7C453F2DA /* LJWechatSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LJWechatSDK.xcconfig; sourceTree = "<group>"; };
 		9A31334329933E8EA2F54F7E5362ED68 /* libPods-LJWechatSDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LJWechatSDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CB250FC810D9EE7BE054AC53762B813 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
 		A150CA55414FD51020940BF27D90A531 /* Pods-LJWechatSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LJWechatSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B3CA0E432419F0071657FF498D4D7A8A /* LJWechatSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LJWechatSDK-prefix.pch"; sourceTree = "<group>"; };
 		BB21548F2B9CBC18691311A7E007DB99 /* libPods-LJWechatSDK_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LJWechatSDK_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF07006EE0C78EC7E3ED56D51AB6B542 /* Pods-LJWechatSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LJWechatSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DBBB0045F69E49E70FCF88C498253199 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
-		E31D862E1F3807EF00E490BF /* asdfas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = asdfas.h; sourceTree = "<group>"; };
-		E31D862F1F3807EF00E490BF /* asdfas.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = asdfas.m; sourceTree = "<group>"; };
+		DE6CFAF1327A5041F957E6133681E3EE /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		E31D86331F386C2400E490BF /* asdfas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asdfas.h; sourceTree = "<group>"; };
+		E31D86341F386C2400E490BF /* asdfas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = asdfas.m; sourceTree = "<group>"; };
 		E7123CEE2572FAB5EA5A18F8EE740CB2 /* Pods-LJWechatSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LJWechatSDK_Example-resources.sh"; sourceTree = "<group>"; };
 		EA9BB9C7E4B875A5D3C1679D2DDC00A5 /* Pods-LJWechatSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LJWechatSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EAC0BBDADAB7939D85660C7A04F9BC59 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		EE2A0666BCD006A32F325D28F06E9F0D /* Pods-LJWechatSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LJWechatSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		EE9EC9264E85834A0EE65CA413AE7625 /* Pods-LJWechatSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LJWechatSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EF6920D1599983C4DC1BF006431B7E03 /* LJWechatSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LJWechatSDK-dummy.m"; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				CDC83D31A2BE11A8975B9F2113731E1C /* Frameworks */,
-				A8587E7B5A72A72BFEE3A1646A9468FA /* LJWechatSDK */,
+				85A38F38815963D00FD7AB64F7823D2B /* LJWechatSDK */,
 				321BE443DFA8B87C2830D7B20A9EEE21 /* Support Files */,
 			);
 			name = LJWechatSDK;
@@ -185,6 +185,17 @@
 			);
 			sourceTree = "<group>";
 		};
+		85A38F38815963D00FD7AB64F7823D2B /* LJWechatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E31D86321F386C2400E490BF /* dslk */,
+				DE6CFAF1327A5041F957E6133681E3EE /* WechatAuthSDK.h */,
+				EAC0BBDADAB7939D85660C7A04F9BC59 /* WXApi.h */,
+				26CAEEAFC8AB80E353CF47F8FA3445F9 /* WXApiObject.h */,
+			);
+			path = LJWechatSDK;
+			sourceTree = "<group>";
+		};
 		967E86B391A6ADB6A864D98B140160EC /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,18 +214,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A8587E7B5A72A72BFEE3A1646A9468FA /* LJWechatSDK */ = {
-			isa = PBXGroup;
-			children = (
-				9CB250FC810D9EE7BE054AC53762B813 /* WechatAuthSDK.h */,
-				DBBB0045F69E49E70FCF88C498253199 /* WXApi.h */,
-				332410B96C37ECD6803B2E921FF4CF53 /* WXApiObject.h */,
-				E31D862E1F3807EF00E490BF /* asdfas.h */,
-				E31D862F1F3807EF00E490BF /* asdfas.m */,
-			);
-			path = LJWechatSDK;
-			sourceTree = "<group>";
-		};
 		CDC83D31A2BE11A8975B9F2113731E1C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,17 +222,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E31D86321F386C2400E490BF /* dslk */ = {
+			isa = PBXGroup;
+			children = (
+				E31D86331F386C2400E490BF /* asdfas.h */,
+				E31D86341F386C2400E490BF /* asdfas.m */,
+			);
+			path = dslk;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		BCC219A19E92BA2DCA71E062E3EADF3E /* Headers */ = {
+		CAE0114579071D36C1886ECF2B21E14A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E31D86301F3807EF00E490BF /* asdfas.h in Headers */,
-				9623E234572EE7EA3323CC530FD88008 /* WechatAuthSDK.h in Headers */,
-				638C80A96D8D417CFC279B8F6E8528F5 /* WXApi.h in Headers */,
-				3D9C1F5050831A4B9D7E0E808F45E58C /* WXApiObject.h in Headers */,
+				E31D86351F386C2400E490BF /* asdfas.h in Headers */,
+				25EE16BFCA66FF51A704D4147B79EE5C /* WechatAuthSDK.h in Headers */,
+				6689C75227EC41F85B2326EF7761A982 /* WXApi.h in Headers */,
+				43137F7F475017C497BE472C9C342F17 /* WXApiObject.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,9 +285,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8803BC6708F987E4E0574585A7DF3ED7 /* Build configuration list for PBXNativeTarget "LJWechatSDK" */;
 			buildPhases = (
-				E46A962971ED8266527785E6D9DF7187 /* Sources */,
+				17C46568C1DD1AEA19985A6CF03599CD /* Sources */,
 				645FDE7E69E12A0F380AC0735A66BE8E /* Frameworks */,
-				BCC219A19E92BA2DCA71E062E3EADF3E /* Headers */,
+				CAE0114579071D36C1886ECF2B21E14A /* Headers */,
 			);
 			buildRules = (
 			);
@@ -319,20 +327,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		17C46568C1DD1AEA19985A6CF03599CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BAA063DDF1BDD3EBE6ABE071B9593D /* LJWechatSDK-dummy.m in Sources */,
+				E31D86361F386C2400E490BF /* asdfas.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C5C2A5A790AE069A50AB5806693B4A3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E3EF11BC1F232E49CC95075B1EAD502F /* Pods-LJWechatSDK_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E46A962971ED8266527785E6D9DF7187 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A2EBC4A4CD1CD27FCBD285054F5EB871 /* LJWechatSDK-dummy.m in Sources */,
-				E31D86311F3807EF00E490BF /* asdfas.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

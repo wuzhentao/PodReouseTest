@@ -11,7 +11,7 @@
 @implementation LJAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{    //fix bug
+{    //fix bug1111111
     // Override point for customization after application launch.
     return YES;
 }

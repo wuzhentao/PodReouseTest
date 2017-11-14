@@ -12,7 +12,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {    //fix bug
-    // Override point for customization after application launch.
+    // Override point for custhttps://github.com/wuzhentao/PodReouseTest.gitcbc./bomization after application launch.
     return YES;
 }
 
